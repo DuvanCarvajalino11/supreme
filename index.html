@@ -5,53 +5,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style_login.css">
     <title>Document</title>
 </head>
 
 <body>
    
+<div class="background"></div>
+<div class="centering">
+    <form action="" class="my_form">
+        <div class="login_welcome">
+            <img src="https://thumbs.dreamstime.com/z/astronauta-de-dibujos-animados-volando-en-el-espacio-caricatura-ni%C3%B1o-peque%C3%B1o-con-traje-ilustraci%C3%B3n-vectorial-259124628.jpg?w=768" alt="" class="login">
+            <h1>Iniciar sesion</h1>
+        </div>
+        <div class="text_field">
+            <label for="email">Email</label>
+            <input type="email" id="email" aria-label="Email" placeholder="Ingrese su email " required>
+            <img src="./email-svgrepo-com.svg" alt="Email Icon" title="Email Icon">
+        </div>
 
-    <table border="1">
-        <thead>
-            <tr>
-                <th>EQUIPO</th>
-                <th>PARTIDOS</th>
-                <th>PUNTOS</th>
-                <th>ESCUDO</th>
-            </tr>
-            <tbody>
-                <tr>
-                    <td>colombia</td>
-                    <td>6</td>
-                    <td>12</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>argentina</td>
-                    <td>7</td>
-                    <td>10</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>brasil</td>
-                    <td>4</td>
-                    <td>12</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>venezuela</td>
-                    <td>9</td>
-                    <td>10</td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </thead>
-    </table>
-    <div>
-        <ul>
-            <li><a href="estilos.html"><h2>Ir a estilos</h2></a></li>
-        </ul>
-    </div>
+        <div class="text_field">
+            <label for="password">Password</label>
+            <input type="password" id="password" aria-label="Password" placeholder="Ingrese su contraseña " required>
+            <img src="https://www.svgrepo.com/show/84319/password.svg" alt="Password Icon" title="password Icon">
+        </div>
+
+        <input type="sumit" class="my_form_button" value="Login">
+        <div class="my_form_actions">
+            <div class="my_form_row">
+                <span>¿olvidaste tu contraseña?</span>
+                <a href="#" title="recuperar contraseña">Recuperar Contraseña</a>
+            </div>
+            <div class="my_form_signup">
+                <a href="#" title="crear cuenta">Crear Cuenta</a>
+
+            </div>
+        </div>
+    </form>
+</div>
+   
 </body>
 
 </html>
